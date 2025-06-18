@@ -33,9 +33,9 @@ task clean(type: Delete) {
 }
 
 ext {
-    minSdkVersion = 7
-    targetSdkVersion = 26
-    compileSdkVersion = 26
+    minSdkVersion = 23
+//    targetSdkVersion = 26
+//    compileSdkVersion = 26
     buildToolsVersion = '23.0.2'
 
     sourceCompatibility = JavaVersion.VERSION_1_7
